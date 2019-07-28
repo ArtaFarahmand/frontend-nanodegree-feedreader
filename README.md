@@ -2,13 +2,13 @@
 
 ## Table of content
 
-[Project Overview](#Overview)
-[Instructions](#instructions)
-[Installation](#installation)
-[Project Tests](#tests)
-[Credits](#credits)
-[External Code used in this project](#externalcode)
-[Contributing](#contributing)
+- [Project Overview](#Overview)
+- [Instructions](#instructions)
+- [Installation](#installation)
+- [Project Tests](#tests)
+- [Credits](#credits)
+- [External Code used in this project](#externalcode)
+- [Contributing](#contributing)
 
 # Project Overview
 
