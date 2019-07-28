@@ -5,9 +5,9 @@
 - [Project Overview](#overview)
 - [Instructions](#instructions)
 - [Installation](#installation)
-- [Project Tests](#projecttests)
+- [Project Tests](#project tests)
 - [Credits](#credits)
-- [External Code used in this project](#externalcode)
+- [External Code used in this project](#external code)
 - [Contributing](#contributing)
 
 # Project Overview
