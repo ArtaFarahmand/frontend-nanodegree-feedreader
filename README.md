@@ -29,7 +29,7 @@ To run the feed reader project:
 2. The second test will ensure allFeeds have a URL
 3. The third test will loop through each feed in allFeeds to ensure names are defined and not empty.
 4. The fourth test ensure that the menu is hidden by default
-5. The fifth test ensure that visibility of test is changed when clicked
+5. The fifth test ensure that visibility of menu is changed when clicked
 6. The sixth test ensure that loadFeed is called and completes its work and has one .entry and .feed container
 7. The seventh test ensure that .entry-link starts with "http://" or "https://"
 8. The eight test ensures that new feeds are loaded correctly.

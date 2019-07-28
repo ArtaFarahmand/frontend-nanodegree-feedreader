@@ -22,8 +22,8 @@ $(function() {
          * page?
          */
         it('are defined', function() {
-            expect(allFeeds).toBeDefined();
-            expect(allFeeds.length).not.toBe(0);
+            expect(allFeeds).toBeDefined(); 
+            expect(allFeeds.length).not.toBe(0); 
         });
 
 
@@ -36,8 +36,8 @@ $(function() {
          
          it('url defined', function() {
            for(let feed of allFeeds) {
-             expect(feed.url).toBeDefined();
-             expect(feed.url.length).not.toBe(0);
+             expect(feed.url).toBeDefined(); // ensuring that URLs are defined names
+             expect(feed.url.length).not.toBe(0); // ensuring that URLs are not empty.
            }
          });
 
@@ -49,8 +49,8 @@ $(function() {
          
          it('name defined', function() {
            for(let feed of allFeeds) {
-             expect(feed.name).toBeDefined();
-             expect(feed.name.length).not.toBe(0);
+             expect(feed.name).toBeDefined(); // ensuring that all feeds have names
+             expect(feed.name.length).not.toBe(0); //e ensuring that names are not empty.
            }
          });
        });
@@ -61,7 +61,7 @@ $(function() {
     describe('the menu', function(){
       it('is hidden', function() {
         const body = document.querySelector('body');
-        expect(body.classList.contains('menu-hidden')).toBe(true);
+        expect(body.classList.contains('menu-hidden')).toBe(true); // ensure that the menu is hidden by default
       });
       
         /* TODO: Write a test that ensures the menu element is
@@ -75,7 +75,7 @@ $(function() {
         const menu = document.querySelector('.menu-icon-link');
            
         menu.click();
-        expect(body.classList.contains('menu-hidden')).toBe(false);
+        expect(body.classList.contains('menu-hidden')).toBe(false); // ensure that the menu is visibile when clicked.
       });
 
          /* TODO: Write a test that ensures the menu changes
@@ -97,7 +97,7 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
          beforeEach(function(done) {
-           loadFeed(0, done);
+           loadFeed(0, done); // this test ensure that loadfeed is functioning correctly
          });
          
          it('Completes work', function() {
@@ -112,7 +112,7 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-         beforeEach(function(done) {
+         beforeEach(function(done) { // ensures that URLs have "http://" or "https://"
            loadFeed(0);
            Array.from(feed.children).forEach(function(entry) {
              firstFeed.push(entry.innerText);
